@@ -1,0 +1,9 @@
+{
+  "useConfigFiles": true,
+  "router": true,
+  "routerHistoryMode": true,
+  "cssPreprocessor": "sass",
+  "plugins": {
+    "@vue/cli-plugin-babel": {}
+  }
+}
