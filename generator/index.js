@@ -1,9 +1,5 @@
 module.exports = (api, opts, rootOpts) => {
   api.extendPackage({
-    scripts: {
-      build_dev: 'export IS_DEV=1 && vue-cli-service build'
-    },
-
     // add some npm packages
     dependencies: {
       axios: '^0.18.0',

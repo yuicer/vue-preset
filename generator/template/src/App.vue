@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/css/base.scss';
+@import '@/css/base.scss';
 </style>
 
 <style lang="scss">
