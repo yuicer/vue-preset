@@ -37,17 +37,13 @@ var weixin = {
 
   getWxConfig() {
     var jsonp = require('jsonp')
-    jsonp(
-      'https://www.mafengwo.cn/ajax/refresh_weixin_ticket.php',
-      null,
-      function(err, data) {
-        if (err) {
-          console.error(err)
-        } else {
-          weixin.config(data.conf)
-        }
+    jsonp('https://', null, function(err, data) {
+      if (err) {
+        console.error(err)
+      } else {
+        weixin.config(data.conf)
       }
-    )
+    })
   },
 
   config(config) {
